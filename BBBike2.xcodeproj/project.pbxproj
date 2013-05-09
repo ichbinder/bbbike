@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF9B5F7F1737DF1C001C456F /* CGPointAdditions.c in Sources */ = {isa = PBXBuildFile; fileRef = BF9B5F671737DF1B001C456F /* CGPointAdditions.c */; };
+		BF9B5F801737DF1C001C456F /* BackFragmentShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = BF9B5F6A1737DF1B001C456F /* BackFragmentShader.glsl */; };
+		BF9B5F811737DF1C001C456F /* BackPageGradient.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9B5F6B1737DF1B001C456F /* BackPageGradient.png */; };
+		BF9B5F821737DF1C001C456F /* BackVertexShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = BF9B5F6C1737DF1B001C456F /* BackVertexShader.glsl */; };
+		BF9B5F831737DF1C001C456F /* FrontFragmentShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = BF9B5F6D1737DF1B001C456F /* FrontFragmentShader.glsl */; };
+		BF9B5F841737DF1C001C456F /* FrontVertexShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = BF9B5F6E1737DF1B001C456F /* FrontVertexShader.glsl */; };
+		BF9B5F851737DF1C001C456F /* NextPageFragmentShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = BF9B5F6F1737DF1B001C456F /* NextPageFragmentShader.glsl */; };
+		BF9B5F861737DF1C001C456F /* NextPageNoTextureFragmentShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = BF9B5F701737DF1B001C456F /* NextPageNoTextureFragmentShader.glsl */; };
+		BF9B5F871737DF1C001C456F /* NextPageNoTextureVertexShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = BF9B5F711737DF1B001C456F /* NextPageNoTextureVertexShader.glsl */; };
+		BF9B5F881737DF1C001C456F /* NextPageVertexShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = BF9B5F721737DF1B001C456F /* NextPageVertexShader.glsl */; };
+		BF9B5F891737DF1C001C456F /* XBAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9B5F741737DF1B001C456F /* XBAnimation.m */; };
+		BF9B5F8A1737DF1C001C456F /* XBAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9B5F761737DF1B001C456F /* XBAnimationManager.m */; };
+		BF9B5F8B1737DF1C001C456F /* XBCurlView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9B5F781737DF1B001C456F /* XBCurlView.m */; };
+		BF9B5F8C1737DF1C001C456F /* XBPageCurlView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9B5F7A1737DF1B001C456F /* XBPageCurlView.m */; };
+		BF9B5F8D1737DF1C001C456F /* XBPageDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9B5F7C1737DF1C001C456F /* XBPageDragView.m */; };
+		BF9B5F8E1737DF1C001C456F /* XBSnappingPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9B5F7E1737DF1C001C456F /* XBSnappingPoint.m */; };
+		BF9B5F901737DF88001C456F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9B5F8F1737DF88001C456F /* QuartzCore.framework */; };
+		BF9B5F921737DF91001C456F /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9B5F911737DF91001C456F /* OpenGLES.framework */; };
+		BFA06001173B9AA6008DF9B5 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA05FFF173B9AA6008DF9B5 /* ViewController2.m */; };
+		BFA06002173B9AA6008DF9B5 /* ViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFA06000173B9AA6008DF9B5 /* ViewController2.xib */; };
 		BFA0699D1737BB3F00F2B7F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA0699C1737BB3F00F2B7F0 /* UIKit.framework */; };
 		BFA0699F1737BB3F00F2B7F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA0699E1737BB3F00F2B7F0 /* Foundation.framework */; };
 		BFA069A11737BB3F00F2B7F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA069A01737BB3F00F2B7F0 /* CoreGraphics.framework */; };
@@ -18,9 +38,54 @@
 		BFA069B31737BB3F00F2B7F0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFA069B21737BB3F00F2B7F0 /* Default-568h@2x.png */; };
 		BFA069B61737BB3F00F2B7F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA069B51737BB3F00F2B7F0 /* ViewController.m */; };
 		BFA069B91737BB3F00F2B7F0 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFA069B71737BB3F00F2B7F0 /* ViewController.xib */; };
+		BFA069C31737BB5C00F2B7F0 /* PullableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA069C01737BB5C00F2B7F0 /* PullableView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BFA069C41737BB5C00F2B7F0 /* StyledPullableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA069C21737BB5C00F2B7F0 /* StyledPullableView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BFA069DB1737BB9B00F2B7F0 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA069C81737BB9B00F2B7F0 /* SBJsonParser.m */; };
+		BFA069DC1737BB9B00F2B7F0 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA069CA1737BB9B00F2B7F0 /* SBJsonStreamParser.m */; };
+		BFA069DD1737BB9B00F2B7F0 /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA069CC1737BB9B00F2B7F0 /* SBJsonStreamParserAccumulator.m */; };
+		BFA069DE1737BB9B00F2B7F0 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA069CE1737BB9B00F2B7F0 /* SBJsonStreamParserAdapter.m */; };
+		BFA069DF1737BB9B00F2B7F0 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA069D01737BB9B00F2B7F0 /* SBJsonStreamParserState.m */; };
+		BFA069E01737BB9B00F2B7F0 /* SBJsonStreamTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA069D21737BB9B00F2B7F0 /* SBJsonStreamTokeniser.m */; };
+		BFA069E11737BB9B00F2B7F0 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA069D41737BB9B00F2B7F0 /* SBJsonStreamWriter.m */; };
+		BFA069E21737BB9B00F2B7F0 /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA069D61737BB9B00F2B7F0 /* SBJsonStreamWriterAccumulator.m */; };
+		BFA069E31737BB9B00F2B7F0 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA069D81737BB9B00F2B7F0 /* SBJsonStreamWriterState.m */; };
+		BFA069E41737BB9B00F2B7F0 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA069DA1737BB9B00F2B7F0 /* SBJsonWriter.m */; };
+		BFA069E91737BBB100F2B7F0 /* GeoObjekt.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA069E61737BBB100F2B7F0 /* GeoObjekt.m */; };
+		BFA069EA1737BBB100F2B7F0 /* GeoGoogleParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA069E81737BBB100F2B7F0 /* GeoGoogleParser.m */; };
+		BFA069ED1737BBCF00F2B7F0 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = BFA069EB1737BBCF00F2B7F0 /* background.png */; };
+		BFA069EE1737BBCF00F2B7F0 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFA069EC1737BBCF00F2B7F0 /* background@2x.png */; };
+		BFA069F01737BCA300F2B7F0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA069EF1737BCA300F2B7F0 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF9B5F671737DF1B001C456F /* CGPointAdditions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CGPointAdditions.c; sourceTree = "<group>"; };
+		BF9B5F681737DF1B001C456F /* CGPointAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPointAdditions.h; sourceTree = "<group>"; };
+		BF9B5F6A1737DF1B001C456F /* BackFragmentShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BackFragmentShader.glsl; sourceTree = "<group>"; };
+		BF9B5F6B1737DF1B001C456F /* BackPageGradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackPageGradient.png; sourceTree = "<group>"; };
+		BF9B5F6C1737DF1B001C456F /* BackVertexShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BackVertexShader.glsl; sourceTree = "<group>"; };
+		BF9B5F6D1737DF1B001C456F /* FrontFragmentShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FrontFragmentShader.glsl; sourceTree = "<group>"; };
+		BF9B5F6E1737DF1B001C456F /* FrontVertexShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FrontVertexShader.glsl; sourceTree = "<group>"; };
+		BF9B5F6F1737DF1B001C456F /* NextPageFragmentShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NextPageFragmentShader.glsl; sourceTree = "<group>"; };
+		BF9B5F701737DF1B001C456F /* NextPageNoTextureFragmentShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NextPageNoTextureFragmentShader.glsl; sourceTree = "<group>"; };
+		BF9B5F711737DF1B001C456F /* NextPageNoTextureVertexShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NextPageNoTextureVertexShader.glsl; sourceTree = "<group>"; };
+		BF9B5F721737DF1B001C456F /* NextPageVertexShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NextPageVertexShader.glsl; sourceTree = "<group>"; };
+		BF9B5F731737DF1B001C456F /* XBAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBAnimation.h; sourceTree = "<group>"; };
+		BF9B5F741737DF1B001C456F /* XBAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBAnimation.m; sourceTree = "<group>"; };
+		BF9B5F751737DF1B001C456F /* XBAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBAnimationManager.h; sourceTree = "<group>"; };
+		BF9B5F761737DF1B001C456F /* XBAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBAnimationManager.m; sourceTree = "<group>"; };
+		BF9B5F771737DF1B001C456F /* XBCurlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBCurlView.h; sourceTree = "<group>"; };
+		BF9B5F781737DF1B001C456F /* XBCurlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBCurlView.m; sourceTree = "<group>"; };
+		BF9B5F791737DF1B001C456F /* XBPageCurlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBPageCurlView.h; sourceTree = "<group>"; };
+		BF9B5F7A1737DF1B001C456F /* XBPageCurlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBPageCurlView.m; sourceTree = "<group>"; };
+		BF9B5F7B1737DF1C001C456F /* XBPageDragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBPageDragView.h; sourceTree = "<group>"; };
+		BF9B5F7C1737DF1C001C456F /* XBPageDragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBPageDragView.m; sourceTree = "<group>"; };
+		BF9B5F7D1737DF1C001C456F /* XBSnappingPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBSnappingPoint.h; sourceTree = "<group>"; };
+		BF9B5F7E1737DF1C001C456F /* XBSnappingPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBSnappingPoint.m; sourceTree = "<group>"; };
+		BF9B5F8F1737DF88001C456F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BF9B5F911737DF91001C456F /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		BFA05FFE173B9AA6008DF9B5 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		BFA05FFF173B9AA6008DF9B5 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		BFA06000173B9AA6008DF9B5 /* ViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController2.xib; sourceTree = "<group>"; };
 		BFA069991737BB3F00F2B7F0 /* BBBike2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBBike2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA0699C1737BB3F00F2B7F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BFA0699E1737BB3F00F2B7F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +102,38 @@
 		BFA069B41737BB3F00F2B7F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BFA069B51737BB3F00F2B7F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BFA069B81737BB3F00F2B7F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		BFA069BF1737BB5100F2B7F0 /* PullableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PullableView.h; path = BBBike2/PullableView.h; sourceTree = "<group>"; };
+		BFA069C01737BB5C00F2B7F0 /* PullableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PullableView.m; path = BBBike2/PullableView.m; sourceTree = "<group>"; };
+		BFA069C11737BB5C00F2B7F0 /* StyledPullableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StyledPullableView.h; path = BBBike2/StyledPullableView.h; sourceTree = "<group>"; };
+		BFA069C21737BB5C00F2B7F0 /* StyledPullableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StyledPullableView.m; path = BBBike2/StyledPullableView.m; sourceTree = "<group>"; };
+		BFA069C61737BB9B00F2B7F0 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJson.h; path = BBBike2/objc/SBJson.h; sourceTree = "<group>"; };
+		BFA069C71737BB9B00F2B7F0 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonParser.h; path = BBBike2/objc/SBJsonParser.h; sourceTree = "<group>"; };
+		BFA069C81737BB9B00F2B7F0 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonParser.m; path = BBBike2/objc/SBJsonParser.m; sourceTree = "<group>"; };
+		BFA069C91737BB9B00F2B7F0 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParser.h; path = BBBike2/objc/SBJsonStreamParser.h; sourceTree = "<group>"; };
+		BFA069CA1737BB9B00F2B7F0 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParser.m; path = BBBike2/objc/SBJsonStreamParser.m; sourceTree = "<group>"; };
+		BFA069CB1737BB9B00F2B7F0 /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParserAccumulator.h; path = BBBike2/objc/SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		BFA069CC1737BB9B00F2B7F0 /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParserAccumulator.m; path = BBBike2/objc/SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		BFA069CD1737BB9B00F2B7F0 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParserAdapter.h; path = BBBike2/objc/SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		BFA069CE1737BB9B00F2B7F0 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParserAdapter.m; path = BBBike2/objc/SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		BFA069CF1737BB9B00F2B7F0 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParserState.h; path = BBBike2/objc/SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		BFA069D01737BB9B00F2B7F0 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParserState.m; path = BBBike2/objc/SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		BFA069D11737BB9B00F2B7F0 /* SBJsonStreamTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamTokeniser.h; path = BBBike2/objc/SBJsonStreamTokeniser.h; sourceTree = "<group>"; };
+		BFA069D21737BB9B00F2B7F0 /* SBJsonStreamTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamTokeniser.m; path = BBBike2/objc/SBJsonStreamTokeniser.m; sourceTree = "<group>"; };
+		BFA069D31737BB9B00F2B7F0 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamWriter.h; path = BBBike2/objc/SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		BFA069D41737BB9B00F2B7F0 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamWriter.m; path = BBBike2/objc/SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		BFA069D51737BB9B00F2B7F0 /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamWriterAccumulator.h; path = BBBike2/objc/SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		BFA069D61737BB9B00F2B7F0 /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamWriterAccumulator.m; path = BBBike2/objc/SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		BFA069D71737BB9B00F2B7F0 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamWriterState.h; path = BBBike2/objc/SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		BFA069D81737BB9B00F2B7F0 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamWriterState.m; path = BBBike2/objc/SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		BFA069D91737BB9B00F2B7F0 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonWriter.h; path = BBBike2/objc/SBJsonWriter.h; sourceTree = "<group>"; };
+		BFA069DA1737BB9B00F2B7F0 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonWriter.m; path = BBBike2/objc/SBJsonWriter.m; sourceTree = "<group>"; };
+		BFA069E51737BBB100F2B7F0 /* GeoObjekt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoObjekt.h; sourceTree = "<group>"; };
+		BFA069E61737BBB100F2B7F0 /* GeoObjekt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoObjekt.m; sourceTree = "<group>"; };
+		BFA069E71737BBB100F2B7F0 /* GeoGoogleParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoGoogleParser.h; sourceTree = "<group>"; };
+		BFA069E81737BBB100F2B7F0 /* GeoGoogleParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoGoogleParser.m; sourceTree = "<group>"; };
+		BFA069EB1737BBCF00F2B7F0 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		BFA069EC1737BBCF00F2B7F0 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		BFA069EF1737BCA300F2B7F0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +141,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF9B5F921737DF91001C456F /* OpenGLES.framework in Frameworks */,
+				BF9B5F901737DF88001C456F /* QuartzCore.framework in Frameworks */,
+				BFA069F01737BCA300F2B7F0 /* MapKit.framework in Frameworks */,
 				BFA0699D1737BB3F00F2B7F0 /* UIKit.framework in Frameworks */,
 				BFA0699F1737BB3F00F2B7F0 /* Foundation.framework in Frameworks */,
 				BFA069A11737BB3F00F2B7F0 /* CoreGraphics.framework in Frameworks */,
@@ -53,9 +153,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF9B5F661737DF1B001C456F /* XBPageCurl */ = {
+			isa = PBXGroup;
+			children = (
+				BF9B5F671737DF1B001C456F /* CGPointAdditions.c */,
+				BF9B5F681737DF1B001C456F /* CGPointAdditions.h */,
+				BF9B5F691737DF1B001C456F /* Resources */,
+				BF9B5F731737DF1B001C456F /* XBAnimation.h */,
+				BF9B5F741737DF1B001C456F /* XBAnimation.m */,
+				BF9B5F751737DF1B001C456F /* XBAnimationManager.h */,
+				BF9B5F761737DF1B001C456F /* XBAnimationManager.m */,
+				BF9B5F771737DF1B001C456F /* XBCurlView.h */,
+				BF9B5F781737DF1B001C456F /* XBCurlView.m */,
+				BF9B5F791737DF1B001C456F /* XBPageCurlView.h */,
+				BF9B5F7A1737DF1B001C456F /* XBPageCurlView.m */,
+				BF9B5F7B1737DF1C001C456F /* XBPageDragView.h */,
+				BF9B5F7C1737DF1C001C456F /* XBPageDragView.m */,
+				BF9B5F7D1737DF1C001C456F /* XBSnappingPoint.h */,
+				BF9B5F7E1737DF1C001C456F /* XBSnappingPoint.m */,
+			);
+			name = XBPageCurl;
+			path = BBBike2/XBPageCurl;
+			sourceTree = "<group>";
+		};
+		BF9B5F691737DF1B001C456F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BF9B5F6A1737DF1B001C456F /* BackFragmentShader.glsl */,
+				BF9B5F6B1737DF1B001C456F /* BackPageGradient.png */,
+				BF9B5F6C1737DF1B001C456F /* BackVertexShader.glsl */,
+				BF9B5F6D1737DF1B001C456F /* FrontFragmentShader.glsl */,
+				BF9B5F6E1737DF1B001C456F /* FrontVertexShader.glsl */,
+				BF9B5F6F1737DF1B001C456F /* NextPageFragmentShader.glsl */,
+				BF9B5F701737DF1B001C456F /* NextPageNoTextureFragmentShader.glsl */,
+				BF9B5F711737DF1B001C456F /* NextPageNoTextureVertexShader.glsl */,
+				BF9B5F721737DF1B001C456F /* NextPageVertexShader.glsl */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BFA06003173BB107008DF9B5 /* PullableView */ = {
+			isa = PBXGroup;
+			children = (
+				BFA069C01737BB5C00F2B7F0 /* PullableView.m */,
+				BFA069BF1737BB5100F2B7F0 /* PullableView.h */,
+				BFA069C11737BB5C00F2B7F0 /* StyledPullableView.h */,
+				BFA069C21737BB5C00F2B7F0 /* StyledPullableView.m */,
+			);
+			name = PullableView;
+			sourceTree = "<group>";
+		};
+		BFA06004173BB14B008DF9B5 /* SBJson */ = {
+			isa = PBXGroup;
+			children = (
+				BFA069C61737BB9B00F2B7F0 /* SBJson.h */,
+				BFA069C71737BB9B00F2B7F0 /* SBJsonParser.h */,
+				BFA069C81737BB9B00F2B7F0 /* SBJsonParser.m */,
+				BFA069C91737BB9B00F2B7F0 /* SBJsonStreamParser.h */,
+				BFA069CA1737BB9B00F2B7F0 /* SBJsonStreamParser.m */,
+				BFA069CB1737BB9B00F2B7F0 /* SBJsonStreamParserAccumulator.h */,
+				BFA069CC1737BB9B00F2B7F0 /* SBJsonStreamParserAccumulator.m */,
+				BFA069CD1737BB9B00F2B7F0 /* SBJsonStreamParserAdapter.h */,
+				BFA069CE1737BB9B00F2B7F0 /* SBJsonStreamParserAdapter.m */,
+				BFA069CF1737BB9B00F2B7F0 /* SBJsonStreamParserState.h */,
+				BFA069D01737BB9B00F2B7F0 /* SBJsonStreamParserState.m */,
+				BFA069D11737BB9B00F2B7F0 /* SBJsonStreamTokeniser.h */,
+				BFA069D21737BB9B00F2B7F0 /* SBJsonStreamTokeniser.m */,
+				BFA069D31737BB9B00F2B7F0 /* SBJsonStreamWriter.h */,
+				BFA069D41737BB9B00F2B7F0 /* SBJsonStreamWriter.m */,
+				BFA069D51737BB9B00F2B7F0 /* SBJsonStreamWriterAccumulator.h */,
+				BFA069D61737BB9B00F2B7F0 /* SBJsonStreamWriterAccumulator.m */,
+				BFA069D71737BB9B00F2B7F0 /* SBJsonStreamWriterState.h */,
+				BFA069D81737BB9B00F2B7F0 /* SBJsonStreamWriterState.m */,
+				BFA069D91737BB9B00F2B7F0 /* SBJsonWriter.h */,
+				BFA069DA1737BB9B00F2B7F0 /* SBJsonWriter.m */,
+			);
+			name = SBJson;
+			sourceTree = "<group>";
+		};
 		BFA069901737BB3F00F2B7F0 = {
 			isa = PBXGroup;
 			children = (
+				BFA06004173BB14B008DF9B5 /* SBJson */,
+				BFA06003173BB107008DF9B5 /* PullableView */,
+				BF9B5F661737DF1B001C456F /* XBPageCurl */,
 				BFA069A21737BB3F00F2B7F0 /* BBBike2 */,
 				BFA0699B1737BB3F00F2B7F0 /* Frameworks */,
 				BFA0699A1737BB3F00F2B7F0 /* Products */,
@@ -73,6 +254,9 @@
 		BFA0699B1737BB3F00F2B7F0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BF9B5F8F1737DF88001C456F /* QuartzCore.framework */,
+				BF9B5F911737DF91001C456F /* OpenGLES.framework */,
+				BFA069EF1737BCA300F2B7F0 /* MapKit.framework */,
 				BFA0699C1737BB3F00F2B7F0 /* UIKit.framework */,
 				BFA0699E1737BB3F00F2B7F0 /* Foundation.framework */,
 				BFA069A01737BB3F00F2B7F0 /* CoreGraphics.framework */,
@@ -83,12 +267,19 @@
 		BFA069A21737BB3F00F2B7F0 /* BBBike2 */ = {
 			isa = PBXGroup;
 			children = (
+				BFA069E51737BBB100F2B7F0 /* GeoObjekt.h */,
+				BFA069E61737BBB100F2B7F0 /* GeoObjekt.m */,
+				BFA069E71737BBB100F2B7F0 /* GeoGoogleParser.h */,
+				BFA069E81737BBB100F2B7F0 /* GeoGoogleParser.m */,
 				BFA069AB1737BB3F00F2B7F0 /* AppDelegate.h */,
 				BFA069AC1737BB3F00F2B7F0 /* AppDelegate.m */,
 				BFA069B41737BB3F00F2B7F0 /* ViewController.h */,
 				BFA069B51737BB3F00F2B7F0 /* ViewController.m */,
 				BFA069B71737BB3F00F2B7F0 /* ViewController.xib */,
 				BFA069A31737BB3F00F2B7F0 /* Supporting Files */,
+				BFA05FFE173B9AA6008DF9B5 /* ViewController2.h */,
+				BFA05FFF173B9AA6008DF9B5 /* ViewController2.m */,
+				BFA06000173B9AA6008DF9B5 /* ViewController2.xib */,
 			);
 			path = BBBike2;
 			sourceTree = "<group>";
@@ -96,6 +287,8 @@
 		BFA069A31737BB3F00F2B7F0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BFA069EB1737BBCF00F2B7F0 /* background.png */,
+				BFA069EC1737BBCF00F2B7F0 /* background@2x.png */,
 				BFA069A41737BB3F00F2B7F0 /* BBBike2-Info.plist */,
 				BFA069A51737BB3F00F2B7F0 /* InfoPlist.strings */,
 				BFA069A81737BB3F00F2B7F0 /* main.m */,
@@ -163,6 +356,18 @@
 				BFA069B11737BB3F00F2B7F0 /* Default@2x.png in Resources */,
 				BFA069B31737BB3F00F2B7F0 /* Default-568h@2x.png in Resources */,
 				BFA069B91737BB3F00F2B7F0 /* ViewController.xib in Resources */,
+				BFA069ED1737BBCF00F2B7F0 /* background.png in Resources */,
+				BFA069EE1737BBCF00F2B7F0 /* background@2x.png in Resources */,
+				BF9B5F801737DF1C001C456F /* BackFragmentShader.glsl in Resources */,
+				BF9B5F811737DF1C001C456F /* BackPageGradient.png in Resources */,
+				BF9B5F821737DF1C001C456F /* BackVertexShader.glsl in Resources */,
+				BF9B5F831737DF1C001C456F /* FrontFragmentShader.glsl in Resources */,
+				BF9B5F841737DF1C001C456F /* FrontVertexShader.glsl in Resources */,
+				BF9B5F851737DF1C001C456F /* NextPageFragmentShader.glsl in Resources */,
+				BF9B5F861737DF1C001C456F /* NextPageNoTextureFragmentShader.glsl in Resources */,
+				BF9B5F871737DF1C001C456F /* NextPageNoTextureVertexShader.glsl in Resources */,
+				BF9B5F881737DF1C001C456F /* NextPageVertexShader.glsl in Resources */,
+				BFA06002173B9AA6008DF9B5 /* ViewController2.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +381,28 @@
 				BFA069A91737BB3F00F2B7F0 /* main.m in Sources */,
 				BFA069AD1737BB3F00F2B7F0 /* AppDelegate.m in Sources */,
 				BFA069B61737BB3F00F2B7F0 /* ViewController.m in Sources */,
+				BFA069C31737BB5C00F2B7F0 /* PullableView.m in Sources */,
+				BFA069C41737BB5C00F2B7F0 /* StyledPullableView.m in Sources */,
+				BFA069DB1737BB9B00F2B7F0 /* SBJsonParser.m in Sources */,
+				BFA069DC1737BB9B00F2B7F0 /* SBJsonStreamParser.m in Sources */,
+				BFA069DD1737BB9B00F2B7F0 /* SBJsonStreamParserAccumulator.m in Sources */,
+				BFA069DE1737BB9B00F2B7F0 /* SBJsonStreamParserAdapter.m in Sources */,
+				BFA069DF1737BB9B00F2B7F0 /* SBJsonStreamParserState.m in Sources */,
+				BFA069E01737BB9B00F2B7F0 /* SBJsonStreamTokeniser.m in Sources */,
+				BFA069E11737BB9B00F2B7F0 /* SBJsonStreamWriter.m in Sources */,
+				BFA069E21737BB9B00F2B7F0 /* SBJsonStreamWriterAccumulator.m in Sources */,
+				BFA069E31737BB9B00F2B7F0 /* SBJsonStreamWriterState.m in Sources */,
+				BFA069E41737BB9B00F2B7F0 /* SBJsonWriter.m in Sources */,
+				BFA069E91737BBB100F2B7F0 /* GeoObjekt.m in Sources */,
+				BFA069EA1737BBB100F2B7F0 /* GeoGoogleParser.m in Sources */,
+				BF9B5F7F1737DF1C001C456F /* CGPointAdditions.c in Sources */,
+				BF9B5F891737DF1C001C456F /* XBAnimation.m in Sources */,
+				BF9B5F8A1737DF1C001C456F /* XBAnimationManager.m in Sources */,
+				BF9B5F8B1737DF1C001C456F /* XBCurlView.m in Sources */,
+				BF9B5F8C1737DF1C001C456F /* XBPageCurlView.m in Sources */,
+				BF9B5F8D1737DF1C001C456F /* XBPageDragView.m in Sources */,
+				BF9B5F8E1737DF1C001C456F /* XBSnappingPoint.m in Sources */,
+				BFA06001173B9AA6008DF9B5 /* ViewController2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +525,7 @@
 				BFA069BE1737BB3F00F2B7F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
